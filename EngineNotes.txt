@@ -188,7 +188,7 @@ Fixed with 'rake db:migrate RAILS_ENV=test'     2013.9.9  cna
 
 rails g integration_test static_pages
 
-Begin editing from Listing 3.9  2013.9.9 cna
+Begin editing from Listing 3.9  2013.9.9 cna  To Start Testing ??????
 ============================================================
 
 
