@@ -2,6 +2,7 @@ alias gs='git status'
 alias gb='git branch'
 alias gc='git commit -m'
 alias ga='git add .'
+alias gph='git push heroku master'
 alias be='bundle exec'
 
 alias subl='~/bin/subl'
