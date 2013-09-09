@@ -171,7 +171,33 @@ RESTART RAILS SERVER
 git add .
 git push
 
+
+============================================================
+I DO NOT BELIEVE YOU HAVE TO DO THIS IF RSPEC IS IN GEMFILE ?
+
+rails generate rspec:install
+============================================================
+
+
+
 CREATE A Home, About, Contact with routes AND heroku create and PUSH TO HEROKU 
+
+rails g controller Page
+
+
+
+heroku create
+git push heroku master
+heroku run rake db:migrate
+
+git push
+git push heroku
+heroku run rake db:migrate
+
+heroku logs
+
+============================================================
+
 
 /* The /app/assets directory isn’t the only place that we can add assets. If we create an assets directory under /lib any files we add there will be accessible from there as if they were in the main /app/assets directory. This also applies to any files under a /vendor/assets directory.
 
@@ -190,8 +216,12 @@ app/assets/images/dog3.jpg
 What is path?
 
 
+============================================================
+Create database?  Should have created pages first.
 
-Create database?
+rails g scaffold Pet title:string body:text image:string
+
+
 
 Add login?
 
