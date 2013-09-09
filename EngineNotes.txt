@@ -171,7 +171,15 @@ RESTART RAILS SERVER
 git add .
 git push
 
-CREATE A HOME PAGE AND PUSH TO HEROKU
+CREATE A Home, About, Contact with routes AND heroku create and PUSH TO HEROKU 
+
+Create database?
+
+Add login?
+
+
+
+
 
 
 
