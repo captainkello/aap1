@@ -180,11 +180,23 @@ rails generate rspec:install
 
 
 
-CREATE A Home, About, Contact with routes AND heroku create and PUSH TO HEROKU 
+CREATE A Home, About, Contact with routes AND  
 
-rails g controller Page
+rails g controller StaticPages home adopt give volunteer
 
 
+
+FYI:  
+rails destroy controller StaticPages
+rails destroy model Pet
+
+rake db:rollback
+rake db:migrate VERSION=0
+
+=============================================================
+heroku create and PUSH TO HEROKU
+
+heroku remote
 
 heroku create
 git push heroku master
