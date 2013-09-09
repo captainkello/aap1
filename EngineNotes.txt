@@ -176,6 +176,12 @@ git push
 I DO NOT BELIEVE YOU HAVE TO DO THIS IF RSPEC IS IN GEMFILE ?
 
 rails generate rspec:install
+
+I RAN IT AND NOW GET THE ERROR
+
+/Users/p2/.rvm/gems/ruby-2.0.0-p247@2013.9.8_rails_4_0/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!': Migrations are pending; run 'rake db:migrate RAILS_ENV=test' to resolve this issue. (ActiveRecord::PendingMigrationError)
+
+2013.9.9  cna
 ============================================================
 
 
