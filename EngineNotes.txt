@@ -230,10 +230,23 @@ What is path?
 
 
 ============================================================
-Create database?  Should have created pages first.
+Create database
 
 rails g scaffold Pet title:string body:text image:string
 
+============================================================
+
+Work on index and show pages to add images
+
+Now add bootstrap!
+
+
+
+Later....
+
+Update with custom titles for pages and expand tests  Listing 3.18
+
+expect(page).to have_title("Adopt a Pet Today App | Home")
 
 
 Add login?
