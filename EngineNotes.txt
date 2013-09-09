@@ -173,6 +173,24 @@ git push
 
 CREATE A Home, About, Contact with routes AND heroku create and PUSH TO HEROKU 
 
+/* The /app/assets directory isn’t the only place that we can add assets. If we create an assets directory under /lib any files we add there will be accessible from there as if they were in the main /app/assets directory. This also applies to any files under a /vendor/assets directory.
+
+If you have assets that are not really specific to the current application then assets directories under either /lib or /vendor are ideal places for them. If our app uses a jQuery plugin then the /vendor/assets directory is a good place for its JavaScript files as these are something that’s maintained by someone else. For assets that we do maintain but which aren’t specific to our application the /lib directory is a good place.
+
+At its most basic the asset pipeline is a list of loadpaths. We can see this list by running the console and viewing Rails.application.config.assets.paths. We’ll view the output as YAML to make it easier to read.  
+*/
+
+/* This is interesting because it means that Ruby gems are no longer just about managing Ruby code. We can use them to manage Javascript and any other assets in them as well. It’s likely that we’ll soon see more JavaScript libraries being distributed as Ruby gems so that they can have all of the benefits of Bundler and the dependency management it provides.
+*/
+
+Where to put images?
+
+app/assets/images/dog3.jpg
+
+What is path?
+
+
+
 Create database?
 
 Add login?
