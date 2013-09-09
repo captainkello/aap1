@@ -236,10 +236,11 @@ At its most basic the asset pipeline is a list of loadpaths. We can see this lis
 */
 
 Where to put images?
+Because we used the <%= image_tag  %> helper, Rails will automatically find any images in that directory using the asset pipeline 
 
-app/assets/images/dog3.jpg
+?/assets/images/dog3.jpg
 
-What is path?
+<%= link_to image_tag("rails.png", alt: "Rails"), '#' %>
 
 
 ============================================================
@@ -253,7 +254,8 @@ Work on index and show pages to add images
 
 Now add bootstrap!
 
-
+/* HTML5 adds the header, nav, and section elements for divisions common to many applications. In this case, each div has a CSS class as well. As with the header tag’s classes, these classes have special meaning to Bootstrap.  
+*/
 
 Later....
 

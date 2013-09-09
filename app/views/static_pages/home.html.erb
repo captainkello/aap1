@@ -1,7 +1,14 @@
 <% provide(:title, 'Home') %>
 
-<h1>Adopt A Pet</h1>
+<div class="center hero-unit">
+
+<h1>Adopt A Pet Today</h1>
 
 <p>Setup list of pets available for adoption. This will be the home page.</p>
 
 <p> Make a happy home together. <%= link_to "Clay.Ashby", url: :root %> </p>
+
+<%= link_to "Sign Up Now!", '#', class: "btn btn-large btn-primary" %>
+</div> <!-- hero-unit -->
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
