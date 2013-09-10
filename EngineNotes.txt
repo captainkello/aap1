@@ -267,6 +267,17 @@ Update with custom titles for pages and expand tests  Listing 3.18
 expect(page).to have_title("Adopt a Pet Today App | Home")
 
 
+============================================================
+
+n Rails 4, there are three canonical directories for static assets, each with its own purpose:
+
+app/assets: assets specific to the present application
+lib/assets: assets for libraries written by your dev team
+vendor/assets: assets from third-party vendors
+
+============================================================
+
+
 Add login?
 
 
