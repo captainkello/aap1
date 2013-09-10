@@ -252,6 +252,9 @@ rails g scaffold Pet title:string body:text image:string
 
 Work on index and show pages to add images
 
+/* Template Caching
+By default, Rails will compile each template to a method in order to render it. When you alter a template, Rails will check the file's modification time and recompile it in development mode. */
+
 Now add bootstrap!
 
 /* HTML5 adds the header, nav, and section elements for divisions common to many applications. In this case, each div has a CSS class as well. As with the header tag’s classes, these classes have special meaning to Bootstrap.  
