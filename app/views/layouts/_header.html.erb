@@ -1,13 +1,13 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <%= link_to "Adopt A Pet", '#', id: "logo" %> 
+          <%= link_to "Adopt A Pet", root_path, id: "logo" %> 
           <nav>
             <ul class="nav pull-right">
-              <li><%= link_to "Home",    '#' %></li>
-              <li><%= link_to "Adopt",    '#' %></li>
-              <li><%= link_to "Give",    '#' %></li>              
-              <li><%= link_to "Volunteer", '#' %></li>
+              <li><%= link_to "Home",    home_path %></li>
+              <li><%= link_to "Adopt",    adopt_path %></li>
+              <li><%= link_to "Give",    give_path %></li>              
+              <li><%= link_to "Volunteer", volunteer_path %></li>
             </ul>
           </nav>
         </div>
