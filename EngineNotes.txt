@@ -280,6 +280,9 @@ Inserting a # after the <% comments out a line of erb
 
 <li><%#= link_to "Contact", '#' %></li>  
 
+
+Add images manually, then create a ransom URLsafe hash to name uploaded images (unique)
+
 Add login?
 
 
